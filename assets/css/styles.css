@@ -1,0 +1,161 @@
+body{
+  background:
+  linear-gradient(
+    to top,
+    #88fece 5%,     
+    #a4fed8 45%,     
+    #e0fff0 100%
+  ); 
+  background-repeat: no-repeat;
+  height: 58.2rem;
+}
+.principal,
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#header{
+  text-align: center;
+  margin: 0%;
+}
+
+/*
+  Colores de fondo del body
+*/
+
+
+.triste{
+  background:
+      linear-gradient(
+        to top,
+        #1e1950 5%,     
+        #7c7b89 45%,     
+        #c6c5cb 100%     
+      );
+      background-repeat: no-repeat;
+      height: 58.2rem;
+}
+
+.tranquilo{
+  background:
+      linear-gradient(
+        to top,
+        #57bdbd 5%,    
+        #c1f9fa 45%,     
+        #e3fdfe 100%     
+      );
+      background-repeat: no-repeat;
+      height: 58.2rem;
+
+}
+
+.feliz {
+  background:
+      linear-gradient(
+        to top,
+        #fa913b 5%,     
+        #fcc59c 45%,     
+        #fedec7 100%      
+      );
+      background-repeat: no-repeat;
+      height: 58.2rem;
+}
+
+.enojado{
+  background:linear-gradient(
+    to top,
+    #500b0a 5%,     
+    #e93e3b 45%,     
+    #dda4a0 100%
+  );
+  background-repeat: no-repeat;
+  height: 58.2rem;
+}
+
+
+#main{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 6%;
+}
+
+
+
+
+/* tamaño de la forma*/
+#contenido-1{
+  width: 30%;
+  padding: 50px;
+  border-radius: 15px;
+ -webkit-box-shadow: 4px 6px 10px 2px rgba(0,0,0,0.83); 
+  box-shadow: 4px 6px 10px 2px rgba(0,0,0,0.83);
+}
+/*
+  Colores de fondo de la seccion
+*/
+.feliz-s {
+  background-color:  #ffff01;
+  color: #fe9f03;
+}
+
+.triste-s {
+  background-color: #141265;
+  color: white;
+}
+.tranquilo-s{
+  background-color: #59b7b6;
+  color: white;
+}
+.enojado-s {
+  background-color: #4d090a;
+  color: white;
+
+}
+#img-1{
+  width: 10%;
+  position: relative;
+  right: 10rem;
+  bottom: 2rem;
+
+}
+
+.button {
+  background: transparent;
+  border: none;
+  width: 8%;
+}
+
+#sentimiento{
+  border: none;
+  background-color: transparent;
+  margin-bottom: 15%;
+  color: rgb(3, 3, 3);
+  position: relative;
+  right: 5rem;
+}
+#contenedor-btns{
+  position: relative;
+  right: 10rem;
+}
+
+/*color de los botones*/
+.feliz-btn{
+  background-color: yellow;
+}
+.enojado-btn{
+  background-color: rgb(255, 0, 0);
+}
+.triste-btn{
+  background-color: rgb(0, 4, 255);
+}
+.tranquilo-btn{
+  background-color: rgb(0, 255, 76);
+}
+
+
+
+
+

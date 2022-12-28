@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OneMind JS</title>
+    <!-- Mi Hoja de Estilos -->
+    <link href="./assets/css/styles.css" rel="stylesheet" />
+    <!-- Link de Iconos -->
+    <script
+      src="https://kit.fontawesome.com/8e4851c74a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="header">
+      <h1>¿Cómo te sientes hoy?</h1>
+    </header>
+    <main id="main">
+      <section id="contenido-1" class="principal">
+        <img
+          src="./assets/img/comillas.png"
+          alt="Imagen de comillas"
+          id="img-1"
+        />
+        <form id="form" class="form">
+          <input
+            id="sentimiento"
+            type="text"
+            placeholder="Cuentame como te sientes..."
+            name="sentimiento"
+          />
+          <div>
+            <label for="emoji"> Me siento... </label>
+            <button type="submit" class="feliz-btn">
+              <i class="fa-sharp fa-solid fa-face-smile feliz-btn"></i>
+            </button>
+            <button type="submit" class="triste-btn">
+              <i class="fa-sharp fa-solid fa-face-sad-tear triste-btn"></i>
+            </button>
+            <button type="submit" class="tranquilo-btn">
+              <i class="fa-regular fa-face-grin-wink tranquilo-btn"></i>
+            </button>
+            <button type="submit" class="enojado-btn">
+              <i class="fa-regular fa-face-angry enojado-btn"></i>
+            </button>
+          </div>
+          <p id="estado-animo"></p>
+        </form>
+      </section>
+    </main>
+    <!-- Mi hoja de JS -->
+    <script src="./js/main.js" type="text/javascript"></script>
+  </body>
+</html>
